@@ -1,121 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>S Prasanna</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S Prasanna</title>
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-</head>
-<body>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
 
-<canvas id="bg"></canvas>
+    <header>
+      <h2>S Prasanna</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<header>
-  <h2>S Prasanna</h2>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="text">
+          <h1>Hello, I'm <span>S Prasanna</span></h1>
+          <p>Final year Computer Science Engineering Student</p>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-content">
+          <div class="buttons">
+            <a
+              href="https://github.com/PrasannaWorks"
+              class="btn"
+              target="_blank"
+              >View GitHub</a
+            >
 
-    <div class="text">
-      <h1>Hello, I'm <span>S Prasanna</span></h1>
-      <p>DevOps Engineer | Full stack Dev | Computer Science Student</p>
+            <a
+              href="https://drive.google.com/file/d/1dj595SlcHKDZWIff7h1cGEcPTeyRU7yj/view?usp=sharing"
+              target="_blank"
+              class="btn"
+            >
+              View Resume
+            </a>
 
-      <div class="buttons">
-        <a href="https://github.com/PrasannaWorks" class="btn" target="_blank">View GitHub</a>
+            <a
+              href="https://drive.google.com/file/d/1dj595SlcHKDZWIff7h1cGEcPTeyRU7yj/view?usp=sharing"
+              class="btn resume-btn"
+            >
+              Download Resume
+            </a>
+          </div>
+        </div>
 
-        <a href="https://drive.google.com/file/d/12DDcuxzJ3XtCJcvBJG2Qd9_YpErqLW6p/preview"
-           target="_blank"
-           class="btn">
-           View Resume
-        </a>
-
-       <a href="https://drive.google.com/uc?export=download&id=12DDcuxzJ3XtCJcvBJG2Qd9_YpErqLW6p"
-          class="btn resume-btn">
-          Download Resume
-      </a>
+        <div class="image">
+          <img src="Prasanna_photo.jpg" alt="S Prasanna" />
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="image">
-      <img src="Prasanna_photo.jpg" alt="S Prasanna">
-    </div>
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Final year Computer Science student, who is passionate in learning about
+        how completely an application gets developed after analyzing the
+        business's core needs and emapthies, then having an interest of
+        exploring how those application live in networks.
+      </p>
+    </section>
 
-  </div>
-</section>
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Devimani Stores</h3>
+          <p>
+            Designed and deployed a full-stack ordering platform enabling
+            apartment-complex residents to place and track shopping orders in
+            real time, with an admin dashboard for order management, and payment
+            trackings.
+          </p>
+          <p><strong>Tech:</strong> React.js, Node.js, Vite.js</p>
+          <a
+            href="https://github.com/PrasannaWorks/Devimani-Stores"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+      <div class="projects">
+        <div class="card">
+          <h3>Reelr Holidays</h3>
+          <p>
+            A modern travel website built with WordPress using a low-code
+            workflow, focusing on responsive design, content management, and
+            user inquiries.
+          </p>
+          <p><strong>Tech:</strong> WordPress</p>
+          <a
+            href="https://github.com/PrasannaWorks/internship-reelrholidays"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
 
-<!-- ABOUT -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    Final-year B.E. Computer Science and Engineering student with practical experience in software development,
-    web application development, and client-based website projects. Skilled in Python, Core Java, WordPress, Git, 
-    GitHub, and modern development workflows, with growing expertise in Angular, .NET, Docker, and DevOps practices.
-    Experienced in developing business websites, implementing deployment solutions, and collaborating on real-world projects. 
-    Continuously enhancing knowledge in full-stack development, cloud-native technologies, and automation.
-    Seeking opportunities as a Software Engineer, Web Developer, DevOps Engineer, or Full Stack Developer.
-  </p>
-</section>
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="card">Core Java</div>
+      </div>
+    </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="projects">
-    <div class="card">
-      <h3>Reelr Holidays</h3>
-      <p>A modern travel website built with WordPress using a low-code workflow, focusing on responsive design, content management, and user inquiries.</p>
-      <p><strong>Tech:</strong> WordPress</p>
-      <a href="https://github.com/PrasannaWorks/internship-reelrholidays" target="_blank">View Project</a>
-    </div>
-  </div>
-</section>
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Waiting for your messages:</h2>
 
-<!-- SKILLS -->
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <div class="card">Java</div>
-    <div class="card">C</div>
-    <div class="card">Python</div>
-    <div class="card">GitHub</div>
-    <div class="card">VS Code</div>
-    <div class="card">ChatGPT</div>
-  </div>
-</section>
+      <form id="contact-form">
+        <input type="text" name="user_name" placeholder="Your Name" required />
+        <input
+          type="email"
+          name="user_email"
+          placeholder="Your Email"
+          required
+        />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
 
-<!-- CONTACT -->
-<section id="contact">
-  <h2>waiting for your messages:</h2>
+      <p id="status"></p>
 
-  <form id="contact-form">
-    <input type="text" name="user_name" placeholder="Your Name" required>
-    <input type="email" name="user_email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+      <p>Email: prasannaselvaraj06@gmail.com</p>
+      <p>Phone: +91 8667829345</p>
+    </section>
 
-  <p id="status"></p>
+    <footer>
+      <p>© 2026 S Prasanna. All rights reserved.</p>
+    </footer>
 
-  <p>Email: prasannaselvaraj06@gmail.com</p>
-  <p>Phone: +91 8667829345</p>
-</section>
-
-<footer>
-  <p>© 2026 S Prasanna. All rights reserved.</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
